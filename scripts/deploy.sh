@@ -6,6 +6,8 @@ then
 	cp documents/prod_files/example_prod_secret.exs config/prod.secret.exs
 fi
 
+chmod +x scripts/build.sh
+
 sh scripts/build_container.sh
 sh scripts/generate_release.sh
 
