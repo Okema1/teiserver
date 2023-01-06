@@ -4,5 +4,5 @@ ENV LANG=en_US.UTF-8 \
   TERM=xterm \
   MIX_ENV=$env
 WORKDIR /opt/build
-ADD ./ ./
+ADD --chown=root:root ./ ./
 CMD ["scripts/build.sh"]
