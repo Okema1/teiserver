@@ -97,7 +97,7 @@ defmodule Central.MixProject do
 
       # We were using the hex version but it's not had some critical updates so pointing at our version for now
       # {:alchemy, "~> 0.7.0", hex: :discord_alchemy},
-      {:alchemy, git: "git@github.com:Teifion/alchemy.git", branch: "forum_fix"}
+      {:alchemy, git: "https://github.com/Teifion/alchemy.git", branch: "forum_fix"}
     ]
   end
 
