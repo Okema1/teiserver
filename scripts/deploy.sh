@@ -7,6 +7,7 @@ then
 fi
 
 chmod +x scripts/build.sh
+mkdir -p rel/artifacts
 
 sh scripts/build_container.sh
 sh scripts/generate_release.sh
